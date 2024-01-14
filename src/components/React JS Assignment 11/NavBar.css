@@ -1,0 +1,27 @@
+.active{
+    color: rgb(22, 131, 225);
+    background-color: rgba(17, 69, 115, 0.678);
+    border-radius: 10px;
+    padding:10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.navtop{
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bg{
+    padding-top:2rem;
+    padding-bottom: 1rem;
+    
+}

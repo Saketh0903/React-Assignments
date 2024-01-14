@@ -1,0 +1,19 @@
+.unit h3{
+    padding: 20px;
+    transition:transform .2s;
+    margin: 0;
+}
+.unit h3:hover{
+    transform:scale(1.2);
+}
+
+.unit{
+    margin: 0;
+}
+.unit:hover{
+    background-color: aliceblue;
+}
+
+hr{
+    margin: 0;
+}

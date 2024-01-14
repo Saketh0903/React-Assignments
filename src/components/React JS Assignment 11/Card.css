@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+.webName{
+    text-align:left;
+    padding-left: 30px;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(255, 234, 0);
+}
+#card{
+    width: 270px;
+    padding: 10px;
+    height: 400px;
+    box-shadow: 5px 5px 10px rgb(26, 13, 51);
+    transition: transform .3s;
+}
+
+.tags{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#card img{
+    object-fit: cover;
+    width: 250px;
+    height: 180px;
+}
+
+#card:hover{
+    transform: scale(1.033);
+    background-color: #1b1b1c;
+    color: aliceblue;
+    box-shadow:5px 5px 10px #ccc;
+}
+.mycontainer{
+    padding: 20px;
+}
+
+.details{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    border:0px;
+    border-radius: 2px;
+    background-color: rgb(255, 120, 120);
+}
+
+.searchbar{
+    display: flex;
+    align-items:center;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom:10px;
+    padding: 10px;
+    border:1px solid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#search{
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border:none;
+}
+
+#search:focus{
+    outline: none;
+}
+
+.ResourcePage{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Add this CSS to your existing styles or create a new CSS file */
+
+/* Style the select element */
+select {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  /* Change the border color on hover */
+  select:hover {
+    border-color: #007bff; /* Change to your desired hover color */
+  }
+  
+  /* Style the options within the select element */
+  select option {
+    background-color: #fff; /* Background color of options */
+    color: #333; /* Text color of options */
+  }
+  
+  /* Change the option color on hover */
+  select option:hover {
+    background-color: #007bff; /* Change to your desired hover color */
+    color: #fff; /* Change to your desired hover text color */
+  }
+  

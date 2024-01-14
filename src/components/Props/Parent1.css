@@ -1,0 +1,15 @@
+*
+{
+    text-align: center;
+    
+}
+.App{
+    background-color: rgb(0, 102, 255);
+}
+.main-box{
+    gap: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

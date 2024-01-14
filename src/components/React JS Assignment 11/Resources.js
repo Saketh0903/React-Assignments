@@ -1,7 +1,8 @@
 // ResourcesPage.js
 import React, { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
-
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './ResourcePage.css'
 import Card from './Card';
 import "./Card.css"
@@ -12,7 +13,7 @@ function Resources() {
     const { register, handleSubmit, setValue } = useForm();
     const [selectedYear, setSelectedYear] = useState(null);
     const [selectedBranch, setSelectedBranch] = useState(null);
-
+    const [input,setInput]=useState('')
     const years = ['First', 'Second', 'Third', 'Fourth']; // Add more if needed
     const branchesByYear = ['CSE','ECE','IT']
 
@@ -20,14 +21,25 @@ function Resources() {
     
     let [resources,setResources]=useState([])
     const [resource,setResource]=useState([])
+    const [filteredResources,setFilteredResources]=useState([])
     useEffect(()=>{
         fetch("https://saketh0903.github.io/JSON_data/resources.json")
         .then((response)=>response.json())
         .then((data)=>{
             setResources(data.resources)
             setResource(data.resources)
+            setFilteredResources(data.resources)
         })
     },[])
+    function handleChange(event){
+        setInput(event.target.value)
+        fetch("https://saketh0903.github.io/JSON_data/resources.json")
+        .then((response)=>response.json())
+        .then((data)=>{
+            setFilteredResources(data.resources)
+        })
+
+      }
         
 
     
@@ -70,7 +82,12 @@ function Resources() {
 
     return (
         <div className='ResourcePage'>
-
+            <form>
+        <div className='searchbar'>
+      <FontAwesomeIcon style={{color:"steelblue"}} icon={faMagnifyingGlass} className="ps-2 pe-3"  />
+        <input type="text" id='search' onChange={handleChange} value={input} placeholder='Search for resources'/>
+        </div>
+      </form>
             <form style={{backgroundColor:"transparent"}} onSubmit={handleSubmit(onSubmit)}>
                 <div className='row'>
                 <div className='col'>
@@ -106,7 +123,14 @@ function Resources() {
             <div className="mycontainer">
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 gy-3">
                     {
-                        resource.map((element, index) =>
+                        (input.length===0)?resource.map((element, index) =>
+                        <Link to="/units" state={{url:element.url}} style={{textDecoration:"none"}}>
+                            <div className="col gx-3" key={index} >
+                                <Card {...element} />
+                            </div>
+                            </Link>
+                        ):
+                        resource.filter((element)=>element.title.toLowerCase().includes(input.toLowerCase())).map((element,index) =>
                         <Link to="/units" state={{url:element.url}} style={{textDecoration:"none"}}>
                             <div className="col gx-3" key={index} >
                                 <Card {...element} />

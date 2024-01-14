@@ -24,6 +24,14 @@
       "year": "Second",
       "branch": "CSE",
       "id": 1
+    },
+    {
+      "username": "Sim",
+      "email": "sim@gmail.com",
+      "password": "$2a$05$m1zyiOY0lwnJRN3sJb/wz.dAbc9xqJ4Gv/UuQCJZBZKVFt9uO8thy",
+      "branch": "IT",
+      "year": "Third",
+      "id": 2
     }
   ],
   "resources": [

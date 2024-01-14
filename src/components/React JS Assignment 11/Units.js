@@ -21,7 +21,7 @@ function Units() {
 
 
                 <div className='unit' >
-                <h3>><Link style={{textDecoration:"none",color:element.color}}>{element.unit}</Link></h3>
+                <h3><Link style={{textDecoration:"none",color:element.color}} to={url}>{element.unit}</Link></h3>
                 </div>
                 )
             }

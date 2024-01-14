@@ -21,11 +21,11 @@ function Resources() {
     let [resources,setResources]=useState([])
     const [resource,setResource]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:4000/resources")
+        fetch("https://saketh0903.github.io/JSON_data/resources.json")
         .then((response)=>response.json())
         .then((data)=>{
-            setResources(data)
-            setResource(data)
+            setResources(data.resources)
+            setResource(data.resources)
         })
     },[])
         

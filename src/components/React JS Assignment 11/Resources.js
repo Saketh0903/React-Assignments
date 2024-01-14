@@ -82,7 +82,7 @@ function Resources() {
 
     return (
         <div className='ResourcePage'>
-            <form>
+            <form className='search'>
         <div className='searchbar'>
       <FontAwesomeIcon style={{color:"steelblue"}} icon={faMagnifyingGlass} className="ps-2 pe-3"  />
         <input type="text" id='search' onChange={handleChange} value={input} placeholder='Search for resources'/>

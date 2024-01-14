@@ -32,6 +32,22 @@
       "branch": "IT",
       "year": "Third",
       "id": 2
+    },
+    {
+      "username": "Saketh",
+      "email": "sakethkarumudi@gmail.com",
+      "password": "$2a$05$HKP3bdMAUdL5/wrIp3JhE.EGdgJVE1k3Li6ScSxtl3HSLF2rOGKtC",
+      "branch": "CSE",
+      "year": "First",
+      "id": 3
+    },
+    {
+      "username": "Zim",
+      "email": "zim@gmail.com",
+      "password": "$2a$05$.u6eIEauYHiKaLFdwOpn8OP2L6U4iEkrMmffZAa/zKNzu/QPJ38yu",
+      "branch": "ECE",
+      "year": "Fourth",
+      "id": 4
     }
   ],
   "resources": [

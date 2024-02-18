@@ -19,10 +19,14 @@ function Units() {
             units.map((element)=>{
                 return(
 
-
+                <>
+                
+                <Link to={url} target='_blank' style={{textDecoration:"none"}}>
                 <div className='unit' >
-                <h3><Link style={{textDecoration:"none",color:element.color}} to={url}>{element.unit}</Link></h3>
+                <h3><Link style={{textDecoration:"none",color:element.color}} to={url} target='_blank'>{element.unit}</Link></h3>
                 </div>
+                </Link>
+                </>
                 )
             }
             )

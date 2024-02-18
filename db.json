@@ -48,6 +48,22 @@
       "branch": "ECE",
       "year": "Fourth",
       "id": 4
+    },
+    {
+      "username": "Saketh",
+      "email": "sakethkarumudi@gmail.com",
+      "password": "$2a$05$rbI6k22E87CFx8yyd3SWGeQ5L7dVgPd8PLu.tnfwTpUK5gYEPrOAi",
+      "branch": "CSE",
+      "year": "First",
+      "id": 5
+    },
+    {
+      "username": "Himanth",
+      "email": "himanth@gmail.com",
+      "password": "$2a$05$p9BqRoz50A2e0JgP.LCLpuG7WY1SyKn9s6xyFbJbcYbO5EfU9RAWi",
+      "branch": "IT",
+      "year": "Second",
+      "id": 6
     }
   ],
   "resources": [
@@ -61,217 +77,260 @@
       "url": "https://www.geeksforgeeks.org/what-is-digital-logic/",
       "title": "Digital Logic",
       "year": "First",
-      "branch": "CSE"
+      "branch": "CSE",
+      "id": 1
     },
     {
       "url": "https://ictsolved.github.io/csit/first-semester/mathematics/",
       "title": "Mathematics-I",
       "year": "First",
-      "branch": "CSE"
+      "branch": "CSE",
+      "id": 2
     },
     {
       "url": "https://www.javatpoint.com/electronic-devices",
       "title": "Electronic Devices",
       "year": "First",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 3
     },
     {
       "url": "https://www.electrical4u.com/electrical-engineering-articles/circuit-theory/",
       "title": "Circuit Theory",
       "year": "First",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 4
     },
     {
       "url": "https://www.geeksforgeeks.org/digital-electronics-logic-design-tutorials/",
       "title": "Digital Logic Design",
       "year": "First",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 5
     },
     {
       "url": "https://en.wikiversity.org/wiki/Programming_Fundamentals",
       "title": "Programming fundamentals",
       "year": "First",
-      "branch": "IT"
+      "branch": "IT",
+      "id": 6
     },
     {
       "url": "https://www.geeksforgeeks.org/introduction-to-digital-systems/",
       "title": "Digital Systems",
       "year": "First",
-      "branch": "IT"
+      "branch": "IT",
+      "id": 7
     },
     {
       "url": "https://www.geeksforgeeks.org/discrete-mathematics-tutorial/",
       "title": "Discrete Mathematics",
       "year": "First",
-      "branch": "IT"
+      "branch": "IT",
+      "id": 8
     },
     {
       "url": "https://www.geeksforgeeks.org/data-structures/",
       "title": "Data Structures",
       "year": "Second",
-      "branch": "CSE"
+      "branch": "CSE",
+      "id": 9
     },
     {
       "url": "https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/",
       "title": "Database Management Systems",
       "year": "Second",
-      "branch": "CSE"
+      "branch": "CSE",
+      "id": 10
     },
     {
       "url": "https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/",
       "title": "Computer Networks",
       "year": "Second",
-      "branch": "CSE"
+      "branch": "CSE",
+      "id": 11
     },
     {
       "url": "https://www.tutorialspoint.com/signals_and_systems/index.htm",
       "title": "Signals and Systems",
       "year": "Second",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 12
     },
     {
       "url": "https://www.tutorialspoint.com/signals_and_systems/index.htm",
       "title": "Signals and Systems",
       "year": "Second",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 13
     },
     {
       "url": "https://www.electronicsforu.com/technology-trends/learn-electronics/analog-electronics-basics",
       "title": "Analog Electronics",
       "year": "Second",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 14
     },
     {
       "url": "https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/",
       "title": "Data Structures and Algorithms",
       "year": "Second",
-      "branch": "IT"
+      "branch": "IT",
+      "id": 15
     },
     {
       "url": "https://www.geeksforgeeks.org",
       "title": "UI/UX Design",
       "year": "Second",
-      "branch": "IT"
+      "branch": "IT",
+      "id": 16
     },
     {
       "url": "https://hbr.org/2022/05/what-is-web3",
       "title": "Web3",
       "year": "Second",
-      "branch": "IT"
+      "branch": "IT",
+      "id": 17
     },
     {
       "url": "https://www.geeksforgeeks.org/fundamentals-of-algorithms/",
       "title": "Algorithms",
       "year": "Third",
-      "branch": "CSE"
+      "branch": "CSE",
+      "id": 18
     },
     {
       "url": "https://www.geeksforgeeks.org/operating-systems/",
       "title": "Operating Systems",
       "year": "Third",
-      "branch": "CSE"
+      "branch": "CSE",
+      "id": 19
     },
     {
       "url": "https://www.geeksforgeeks.org/what-is-artificial-intelligence/",
       "title": "Artificial Intelligence",
       "year": "Third",
-      "branch": "CSE"
+      "branch": "CSE",
+      "id": 20
     },
     {
       "url": "https://www.tutorialspoint.com/digital_signal_processing/index.htm",
       "title": " Digital Signal Processing",
       "year": "Third",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 21
     },
     {
       "url": "https://www.geeksforgeeks.org/vlsi-design-cycle/",
       "title": "VLSI Design",
       "year": "Third",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 22
     },
     {
       "url": "https://byjus.com/jee/communication-systems/",
       "title": "Communication Systems",
       "year": "Second",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 23
     },
     {
       "url": "https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/",
       "title": "Object Oriented Programming",
       "year": "Third",
-      "branch": "IT"
+      "branch": "IT",
+      "id": 24
     },
     {
       "url": "https://www.geeksforgeeks.org/what-is-data-analysis/",
       "title": "Data Analysis",
       "year": "Third",
-      "branch": "IT"
+      "branch": "IT",
+      "id": 25
     },
     {
       "url": "https://www.geeksforgeeks.org/software-engineering/",
       "title": "Software Engineering",
       "year": "Third",
-      "branch": "IT"
+      "branch": "IT",
+      "id": 26
     },
     {
       "url": "https://www.geeksforgeeks.org/web-development/",
       "title": "Web Development",
       "year": "Fourth",
-      "branch": "CSE"
+      "branch": "CSE",
+      "id": 27
     },
     {
       "url": "https://www.kaspersky.co.in/resource-center/definitions/what-is-cyber-security",
       "title": "Cyber Security",
       "year": "Fourth",
-      "branch": "CSE"
+      "branch": "CSE",
+      "id": 28
     },
     {
       "url": "https://www.geeksforgeeks.org/cloud-computing/",
       "title": "Cloud Computing",
       "year": "Fourth",
-      "branch": "CSE"
+      "branch": "CSE",
+      "id": 29
     },
     {
       "url": "https://www.geeksforgeeks.org/introduction-of-embedded-systems-set-1/",
       "title": "Embedded Systems",
       "year": "Fourth",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 30
     },
     {
       "url": "https://www.electronicshub.org/wireless-communication-introduction-types-applications/",
       "title": "Wireless Communication",
       "year": "Fourth",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 31
     },
     {
       "url": "https://www.geeksforgeeks.org",
       "title": "Optical Communication",
       "year": "Fourth",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 32
     },
     {
       "url": "https://en.wikipedia.org/wiki/Optical_communication",
       "title": "Mobile App Development",
       "year": "Fourth",
-      "branch": "IT"
+      "branch": "IT",
+      "id": 33
     },
     {
       "url": "https://www.geeksforgeeks.org/blockchain-technology-introduction/",
       "title": "Block Chain",
       "year": "Fourth",
-      "branch": "IT"
+      "branch": "IT",
+      "id": 34
     },
     {
       "url": "https://www.geeksforgeeks.org/what-is-data-encryption/",
       "title": "Data Encryption",
       "year": "Fourth",
-      "branch": "IT"
+      "branch": "IT",
+      "id": 35
     },
     {
       "url": "https://www.tutorialspoint.com/control_systems/control_systems_introduction.htm",
       "title": "Control Systems",
       "year": "Second",
-      "branch": "ECE"
+      "branch": "ECE",
+      "id": 36
+    },
+    {
+      "url": "https://gateknowledge.in/applied-physics-i/",
+      "title": "Applied Physics",
+      "year": "First",
+      "branch": "CSE",
+      "id": 37
     }
   ]
 }

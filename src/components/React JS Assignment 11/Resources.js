@@ -23,20 +23,20 @@ function Resources() {
     const [resource,setResource]=useState([])
     const [filteredResources,setFilteredResources]=useState([])
     useEffect(()=>{
-        fetch("https://saketh0903.github.io/JSON_data/resources.json")
+        fetch("http://localhost:4000/resources")
         .then((response)=>response.json())
         .then((data)=>{
-            setResources(data.resources)
-            setResource(data.resources)
-            setFilteredResources(data.resources)
+            setResources(data)
+            setResource(data)
+            setFilteredResources(data)
         })
     },[])
     function handleChange(event){
         setInput(event.target.value)
-        fetch("https://saketh0903.github.io/JSON_data/resources.json")
+        fetch("http://localhost:4000/resources")
         .then((response)=>response.json())
         .then((data)=>{
-            setFilteredResources(data.resources)
+            setFilteredResources(data)
         })
 
       }

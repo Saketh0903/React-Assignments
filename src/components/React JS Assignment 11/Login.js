@@ -3,6 +3,7 @@ import {useForm} from 'react-hook-form'
 import {Link} from 'react-router-dom'
 import {compareSync} from 'bcryptjs'
 import {useNavigate} from 'react-router-dom'
+import NavBar from './NavBar'
 function Login() {
   let navigate=useNavigate()
   let {register,handleSubmit,formState:{errors}}=useForm()

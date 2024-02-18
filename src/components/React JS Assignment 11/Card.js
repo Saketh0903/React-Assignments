@@ -20,7 +20,7 @@ function Card(props) {
             <p style={{backgroundColor:"rgba(255,0,150,0.8)",color:"darkred",padding:"3px"}}><b>Branch:{props.branch}</b></p>
             </div>
             
-            <button className='btn btn-info d-block mx-auto details' ><a style={{textDecoration:"none"}} href={props.url} target="_blank">click here</a></button>
+            <button className='btn btn-info d-block mx-auto details' ><Link style={{textDecoration:"none"}} to='/units' state={{url:props.url}}>click here</Link></button>
             
         </div>
       )
